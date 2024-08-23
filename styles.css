@@ -1,0 +1,771 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html
+{
+    scroll-behavior: smooth;
+}
+a
+{
+    cursor: pointer;
+    
+}
+button
+{
+    cursor: pointer;
+}
+body
+{
+    font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+ font-weight: 600;
+  font-style: normal;
+  color:#44897a;
+}
+.leftlogo
+{
+    width: 72px;
+    height: 72px;
+    border-radius: 50px;
+    margin: -0.5% 0 0 3%;
+}
+.leftlogo img{
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50px;
+    border: 3px solid rgb(2, 1, 6);
+}
+hr
+{
+    color: #44897a;
+}
+#myname
+{
+   color: rgb(74, 205, 207);
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+
+    
+}
+#myname::after
+{
+    content: '';
+    height:55px;
+    width:3px;
+    background-color: #1bdae4;
+}
+
+
+
+.headcontainer
+{
+    display: flex;
+    background-color: white;
+    margin-top: 1%;
+    height: 3rem;
+}
+.navcontainer
+{
+    margin-left: 60%;
+}
+.headcontainer nav ul{
+    display:inline-flex ;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: -4%  -3% 0 0;
+}
+.headcontainer nav ul li{
+text-decoration: none;
+list-style: none;
+margin: 0 2% 0 2%;
+    padding: 0 15px 0 15px;
+    font-size: 16px;
+    width: 100%;
+    display: inline-flex;
+
+}
+
+/* //hero sections css started here*/
+.herosection
+{
+    background-color: #ebf4f4;
+    height: 647px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.herosection img
+{
+    
+   margin-top: 10%;
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.headtext
+{
+    font-size: 52px;
+    font-family: "lexend",sans-serif;
+    width: 50%;
+    height: 148px;
+    margin-left: 8.5%;
+    margin-top: 15.4375%;
+}
+.subhead
+{
+    width: 50%;
+    margin-left: 8.5%;
+    
+
+}
+#project,#hire
+{
+    font-size: 18px;
+    color: white;
+    background-color: #44897a;
+    border: none;
+    border-radius:10px ;
+    width: 35.87%;
+    height: 52px;
+    margin-left: 3%;
+    margin-left: -0.5%;
+}
+#hire
+{
+    border:2px solid  #44897a;
+    color: #44897a;
+    background-color: #ebf4f4;
+    
+    margin: 2%;
+}
+#hire:hover
+{
+    background-color: #44897a;
+    color: #ebf4f4;
+    transition: all 0.3s ease-in-out;
+
+}
+#project:hover{
+    background-color: #ebf4f4;
+    color: #6b9080;
+    border:2px solid  #44897a;
+
+
+}
+#violet,#yellow,#original
+{
+    background-color: violet;
+    width: 6%;
+    height: 5%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    margin: 2%;
+    border-radius: 50px;
+}
+
+#yellow
+{
+    background-color: yellow;
+}
+#original
+{
+    background-color: #ebf4f4;
+}
+.underline
+{
+    display: inline-flex;
+    height: 5px;
+    width: 12%;
+
+    border-radius: 12px;
+    background-color: #44897a;
+    margin-top: -2%;
+}
+.aboutsection,.skillsection
+{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.aboutright,.skillright
+{
+    margin:3.12% 0 0 0;
+    
+    width: 42.12%;
+    height: 298px;
+    margin-right: 13.5;
+}
+#cv
+{
+    font-size: 14px;
+    color: white;
+    background-color: #44897a;
+    border: none;
+    border-radius:10px ;
+    width: 16%;
+    height: 36px;
+    margin-left: 3%;
+    margin-left: -0.5%;
+}
+#aboutimg
+{
+    position: absolute;
+    width: 15%;
+    height: 302px;
+    top: 90%;
+    box-shadow: 4px 6px 3px 2.5px rgb(199, 199, 199);
+}
+/* skill section css started here */
+.fa-html5,.fa-css3-alt,.fa-js,.fa-php,.fa-python
+{
+    font-size: 75px;
+    
+
+}
+.skillsection
+{
+    margin-top: 4%;
+}
+.skillleft
+
+{
+width: 50%;
+    font-size: 30px;
+}
+
+.outer,.outer2
+{
+    width: 160px;
+    height: 160px;
+   
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                 -6px -6px 10px -1px rgba(255,255,255,0.7)                                    ;
+}
+.inner,.inner2
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+    -0.5px -0.5px 0px rgba(255,255,255,1),
+    0.5px 0.5px 0px rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.5)
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+circle
+{
+    fill: none;
+    stroke: #89e5d1;
+    stroke-width: 20px;
+    stroke-dasharray: 473;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+svg
+{
+    position: relative;
+    top: -53.5%;
+    left: 0.1%;
+}
+@keyframes anim
+{
+100%
+{
+    stroke-dashoffset: 141.8;
+}
+}
+@keyframes anim2
+{
+100%
+{
+    stroke-dashoffset: 94.4;
+}
+}
+.outer2
+{
+    position: relative;
+    top: -40%;
+    left: 5%;
+}
+.inner2
+{
+    position: relative;
+}
+#svg2
+{
+    position: relative;
+    left:5%;
+    top: -93%;
+}
+#circle2
+{
+    fill: none;
+    stroke: #89e5d1;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 2s linear forwards;
+}
+.softskillcontainer
+{
+    display: flex;
+    justify-content: space-around;
+}
+.skillleft li
+{
+    width: 100%;
+    list-style: none;
+    
+}
+.bar
+{
+   width: 100%; 
+    border: 2px solid #6b9080;
+    display: block;
+    height: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    
+}
+ .line
+{
+     background-color: #89e5d1;
+    width: 0;
+    display: block;
+    height: 10px;
+    border-radius: 10px;
+    animation: anim3 2s linear forwards;
+    
+
+}
+@keyframes anim3{
+100%
+{
+    width: 70%;
+}
+}
+@keyframes anim4{
+    100%
+    {
+        width: 55%;
+    }
+    }
+    @keyframes anim5{
+        100%
+        {
+            width: 60%;
+        }
+        }
+        @keyframes anim6{
+            100%
+            {
+                width: 80%;
+            }
+            }
+#css .line
+{
+    animation: anim4 2s linear forwards;
+}
+#JavaScript .line
+{
+    animation: anim5 2s linear forwards;
+}
+#php .line
+{
+    animation: anim6 2s linear forwards;
+}
+
+/* project section css started here */
+.projectsection
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    gap:50px;
+}
+.p1
+{
+    display: flex;
+    
+    gap: 85px;
+    margin:0 0 0 12%;
+}
+.p2
+{
+    display: flex;
+    
+    height: 10rem;
+    gap:85px;
+    margin:0 0 0 12%;
+}
+.pa,.pb,.pc,.pd
+{
+    
+    height: 332px;
+    width: 26.81%;
+    box-shadow:  2px 5px 7px 3px rgb(212 196 196 / 70%), -1px -1px 2px 0px rgb(217, 213, 213);
+
+    border-radius: 2px 2px 12px 12px;
+    overflow: hidden;
+}
+.pd,.pe,.pf
+{
+    border: 2px solid rgb(224, 224, 224);
+
+}
+
+.imgcontainer
+{
+    height: 191px;
+    width: 23.68rem;
+    margin: 1.5%;
+
+}
+.imgcontainer img
+{
+    height: 191px;
+    width: 22.5rem;
+    
+    border-radius: 0 0 12px 12px ;
+}
+.infocontainer
+{
+    margin: 1.5%;
+    width: 20rem;
+    color: black;
+}
+.viewbtn,.viewbtn2,#sendbtn,#cerbtn
+{
+    background-color: #44897a;
+    color: #ebf4f4;
+    border: none;
+    border-radius: 12px;
+    width: 21%;
+    height: 36px;
+    font-size: 14px;
+}
+.viewbtn2
+{
+    width: 50%;
+}
+.infoapp
+{
+    font-size: 14px;
+    color: #8e94a0;
+}
+.pa:hover .imgcontainer img
+{
+    color: black;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    
+}
+.pd
+{
+    display: flex;
+    gap: 8px;
+    height: 245px;
+    border-radius: 12px 12px 12px 12px;
+
+   
+
+    
+}
+.infocontainer2
+{
+    width: 55%;
+    
+    margin: 1.5%;
+}
+.imgcontainer2
+{
+
+    height:230px ;
+    width: 70%;
+    margin: 1.5%;
+    border-radius: 12px 12px 12px 12px;
+    
+}
+.imgcontainer2 img
+{
+    height:230px ;
+    width: 100%;
+    border-radius: 12px 12px 12px 12px;
+}
+.pd:hover .imgcontainer2 img
+{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.01);
+    
+}
+
+/* Contact section css started from here */
+.contactsection
+{
+    display: flex;
+    justify-content: space-around;
+}
+.contactleft form input,#description
+{
+    width: 100%;
+    height:36px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 4px 1px gainsboro,-1px -1px 4px 1px gainsboro;
+    margin: 4% 0 0 0 ;
+    background-color: none;
+}
+#description
+{
+width: 100%;
+height: 10rem;
+}
+#sendbtn
+{
+    width: 60%;
+    cursor: pointer;
+}
+.contactright
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.so2
+{
+    display: flex;
+    gap: 100px;
+}
+ .fa-linkedin,.fa-github,.fa-facebook
+ {
+    font-size: 95px;
+ }
+ .fb
+ {
+    margin-left: 30%;
+ }
+ .acheivementsection
+ {
+    display: flex;
+    gap: 15rem;
+    margin-left: 25%;
+    height: 15rem;
+ }
+ .ac1
+ {
+    
+    border-radius: 50px;
+    width: 5rem;
+    height: 5rem;
+    
+    display: flex;
+    flex-direction: column;
+ }
+ .ac1 img
+ {
+    border-radius: 50px;
+    width: 5rem;
+    height: 5rem;
+
+ }
+.info3
+{
+    margin-left: -56%;
+    width: 15rem;
+}
+#cerbtn
+{
+    width: 40%;
+    font-size: 12px;
+}
+.imgcontainer3 img
+{
+    margin-left: 30%;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+}
+.feedbacksection
+{
+   
+    background-color: #cce2de;
+    height: 24.25rem;
+}
+.feedbackcardcontainer
+{
+    display: flex;
+    gap: 40px;
+    margin: 2px solid black;
+    justify-content: space-between;
+    margin:-9.5% 2% 9.5% 2%;
+}
+.fcard1
+{
+    display: flex;
+    flex-direction: column;
+    width: 33.93%;
+    height: 308px;
+    
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px 2px rgb(240, 229, 229),-2px -2px 2px gainsboro;
+
+}
+.fa-quote-left
+{
+    font-size: 115px;
+    margin-left: 65%;
+    margin-top: -20%;
+}
+.stars
+{
+    margin:15% 0 0 10%;
+}
+#review
+{
+    margin: 4%;
+}
+.imgcontainer4
+{
+    
+    
+    
+    margin: 4%;
+    margin-top: -1%;
+    width: 100%;
+    
+}
+.imgcontainer4 img
+{
+    height: 72px;
+    width: 72px;
+    object-fit: cover;
+    border-radius: 50px; 
+    
+}
+.imgcontainer4
+{
+    display: flex;
+    gap: 10px;
+}
+.imgsec
+{
+    
+    border-radius: 50px; 
+    height: 72px;
+    width: 72px;
+    background-color: #1bdae4;
+}
+.namecontainer
+{
+   
+    width: 50%;
+    
+}
+.namecontainer h5
+{
+    color: #798c89;
+}
+.footersection
+{
+    height: 470px;
+    background-color: #ebf4f4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerB
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.footerC
+{
+    
+    background-color: white;
+    height: 3rem;
+    line-height: 3rem;
+}
+.footerA
+{
+    color: #44897a;
+    width: 35%;
+    margin: 5%;
+    
+}
+h1
+{
+    font-family: "lexend",sans-serif;
+}
+#islam
+{
+    color: #23c3cb;
+}
+#islam:hover
+{
+    color: #b97b3c;
+}
+.fa-envelope
+{
+    font-size: 20px;
+}
+a
+{
+    text-decoration: none;
+    color: none;
+    color: #44897a;
+}
+a:hover
+{
+    color: #de8f3f;
+}
+i:hover
+{
+    transform: scale(1.05);
+    
+    transition: all 0.5s ease-in-out;
+}
+button:hover
+{
+    transform: scale(1.07);
+    
+    background-color: #1bdae4;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+}
+.active
+{
+    background-color: #44897a;
+    border-radius: 10px;
+    width: 160px;
+    height: 36px;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+}
+.active a 
+{
+    color: white;
+}
+#about
+{
+    width: 50%;
+}
